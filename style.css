@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500;600;700;800;900 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0e0f10;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: transparent;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar {
+    display: flex;
+    column-gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    color: rgb(132, 0, 255);
+}
+
+#produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+
+.produto {
+    width: 200px;
+}
+
+.cards-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #191b1d;
+}
+
+.cards-produtos .d {
+    font-size: 17px;
+    color: white;
+}
+
+.cards-produtos .v {
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+}
